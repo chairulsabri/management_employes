@@ -1,0 +1,41 @@
+<p>add-employee works!</p>
+<form [formGroup]="employeeForm" (ngSubmit)="onSave()">
+  <div>
+    <label for="username">Username</label>
+    <input id="username" formControlName="username" type="text">
+  </div>
+  <div>
+    <label for="firstName">First Name</label>
+    <input id="firstName" formControlName="firstName" type="text">
+  </div>
+  <div>
+    <label for="lastName">Last Name</label>
+    <input id="lastName" formControlName="lastName" type="text">
+  </div>
+  <div>
+    <label for="email">Email</label>
+    <input id="email" formControlName="email" type="email">
+  </div>
+  <div>
+    <label for="birthDate">Birth Date</label>
+    <input id="birthDate" formControlName="birthDate" type="date" max="{{today}}">
+  </div>
+  <div>
+    <label for="basicSalary">Basic Salary</label>
+    <input id="basicSalary" formControlName="basicSalary" type="number">
+  </div>
+  <div>
+    <label for="status">Status</label>
+    <input id="status" formControlName="status" type="text">
+  </div>
+  <div>
+    <label for="group">Group</label>
+    <input id="group" formControlName="group" type="text">
+  </div>
+  <div>
+    <label for="description">Description</label>
+    <input id="description" formControlName="description" type="text">
+  </div>
+  <button type="submit">Save</button>
+  <button type="button" routerLink="/employees">Cancel</button>
+</form>

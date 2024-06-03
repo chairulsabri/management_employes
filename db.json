@@ -1,0 +1,45 @@
+{
+  "employees": [
+    {
+      "username": "johndoe",
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john.doe@example.com",
+      "birthDate": "1990-01-01T00:00:00.000Z",
+      "basicSalary": 50000,
+      "status": "active",
+      "group": "IT",
+      "description": "2010-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "4867",
+      "username": "andrian",
+      "firstName": "andrian",
+      "lastName": "novesal",
+      "email": "chairulsabri734@gmail.com",
+      "birthDate": "2005-02-09",
+      "basicSalary": 1000000,
+      "status": "active",
+      "group": "Livin",
+      "description": "Pecel Lele  mantap"
+    },
+    {
+      "id": "ad78",
+      "username": "helisa",
+      "firstName": "melisa",
+      "lastName": "sinaga",
+      "email": "sinaga@gamail.com",
+      "birthDate": "2004-08-10",
+      "basicSalary": 1000000,
+      "status": "active",
+      "group": "livin group 2",
+      "description": "Nasi uduk enak sekali"
+    }
+  ],
+  "users": [
+    {
+      "username": "admin",
+      "password": "admin123"
+    }
+  ]
+}
