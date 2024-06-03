@@ -1,5 +1,22 @@
 # LivinMandiri
 
+## Login
+user : admin
+password : admin
+
+## Json Server and RUN
+npx json-server db.json
+db.json
+
+
+## NPM
+npm init
+npm install
+
+## BUG
+Masih ada bebrapa bug detail
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
 
 ## Development server
