@@ -9,7 +9,8 @@
       "basicSalary": 50000,
       "status": "active",
       "group": "IT",
-      "description": "2010-01-01T00:00:00.000Z"
+      "description": "2010-01-01T00:00:00.000Z",
+      "id": "15fe"
     },
     {
       "id": "4867",
@@ -34,12 +35,25 @@
       "status": "active",
       "group": "livin group 2",
       "description": "Nasi uduk enak sekali"
+    },
+    {
+      "id": "d3e3",
+      "username": "angga",
+      "firstName": "angga",
+      "lastName": "sinaga",
+      "email": "chairulsabri734@gmail.com",
+      "birthDate": "2024-05-26",
+      "basicSalary": 1000000,
+      "status": "active",
+      "group": "Livin group",
+      "description": "sint aut ipsa pariatur. Ad cupiditate commodi quidem recusandae. Sunt ut non aut deleniti dolores qui magnam. Quod quisquam odio sit ea similique consequatur iusto."
     }
   ],
   "users": [
     {
       "username": "admin",
-      "password": "admin123"
+      "password": "admin123",
+      "id": "32b7"
     }
   ]
 }

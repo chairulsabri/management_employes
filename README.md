@@ -13,6 +13,12 @@ db.json
 npm init
 npm install
 
+## CRUD AND LOGIN
+- Login Berjalan
+- Logout Berjalan
+- Berjalan
+- Detail (baris/kolom) berjalan, masih ada BUG
+
 ## BUG
 Masih ada bebrapa bug detail
 
